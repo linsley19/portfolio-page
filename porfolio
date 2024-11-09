@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanks - The Red-Haired Pirate</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        
+        body {
+            background-image: url('bb.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .gallery .grid-item img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-2 overlay">
+        <h1>Welcome to the World of Shanks!</h1>
+        <p>A tribute to the legendary Red-Haired Pirate.</p>
+    </header>
+    
+    <main class="container my-5">
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <h2 class="text-center mb-4 text-white">"Shanks' Adventures"</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="25.webp" class="card-img-top" alt="Shanks at the Baratie - A pivotal moment in One Piece">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="10.jpg" class="card-img-top" alt="Shanks with Luffy - The beginning of the bond">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="white.avif" class="card-img-top" alt="Shanks meeting Whitebeard - Two of the greatest pirates">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="red.jpg" class="card-img-top" alt="Shanks protecting the seas - His philosophy and leadership">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="hawk.jfif" class="card-img-top" alt="Shanks' final showdown with Mihawk - The world’s greatest swordsman">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="ford.jpg" class="card-img-top" alt="Shanks' iconic moment - Stopping the war at Marineford">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="bio">
+            <h2 class="text-center mb-4 text-white">About Shanks</h2>
+            <p class="lead text-justify text-light">Shanks is the captain of the Red-Haired Pirates and one of the Four Emperors of the Sea in *One Piece*. He is known for his wisdom, strength, and kindness, and his pivotal role in shaping Luffy’s future. Despite his power, Shanks values peace and the lives of others, refusing to engage in pointless violence. His philosophy and leadership have made him a key figure in the pirate world.</p>
+        </section>
+
+        
+        <section class="quotes">
+            <h2 class="text-center mb-4 text-white">Famous Quotes from Shanks</h2>
+            <ul class="list-unstyled">
+                <li class="mb-3 text-white"><blockquote class="blockquote">"The world is a cruel place, but it’s also very beautiful."</blockquote></li>
+                <li class="mb-3 text-white"><blockquote class="blockquote">"I don’t care about the One Piece. I just want to live a peaceful life with my crew."</blockquote></li>
+                <li class="mb-3 text-white"><blockquote class="blockquote">"Luffy, don't ever forget about this moment. You’ll be a great pirate someday."</blockquote></li>
+            </ul>
+        </section>
+    </main>
+
+    
+    <footer class="bg-dark text-white text-center py-4">
+        <p>Want to talk about Shanks and *One Piece*? Email me at <a href="mailto:garaylinsley@gmail.com" class="text-light">garaylinsley@gmail.com</a></p>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
